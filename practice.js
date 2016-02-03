@@ -94,9 +94,6 @@ Car.prototype.getYear = getYear;
 
 
 //New Problem
-
-
-
 var myUser = {
   username: 'iliketurtles',
   age: 13,
@@ -111,10 +108,10 @@ setTimeout(getMyUsername, 5000);
 
 //Above you're given an object, a function, and a setTimeout invocation. After 5 seconds, what will the getUsername function return?
 //Note(no tests)
-  //Answer Here
+  //UNDEFINED
 
 //In the example above, what is the 'this keyword' bound to when getUsername runs?
 
-  //Answer Here
+  //GLOBAL OBJECT
 
 //Fix the setTimeout invocation so that the user object will be the focal object when getUsername is ran.
